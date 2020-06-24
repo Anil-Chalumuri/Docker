@@ -1,0 +1,8 @@
+version: '3'
+services:
+  jdbc:
+    container_name: JdbcAspire
+    image: jdbcaspire
+    build:
+      context: .
+      dockerfile: Dockerfile
