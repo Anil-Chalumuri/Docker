@@ -1,0 +1,8 @@
+version: '3'
+services:
+  hibernate:
+     container_name: HibernateAspire
+     image: hibernateaspire:latest
+     build:
+       context: .
+       dockerfile: Dockerfile
